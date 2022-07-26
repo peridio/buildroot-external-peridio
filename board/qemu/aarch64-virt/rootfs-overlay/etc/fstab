@@ -1,0 +1,2 @@
+/dev/root / auto rw 0 1
+/dev/vda1 /root/.config/peridio vfat noauto,nofail,x-systemd.automount,ro 0 0
