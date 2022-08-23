@@ -1,0 +1,10 @@
+[Unit]
+Description=Peridio Daemon
+
+[Service]
+Restart=always
+ExecStart=/usr/sbin/peridiod start
+User=root
+
+[Install]
+WantedBy=multi-user.target
