@@ -1,6 +1,4 @@
 config BR2_PACKAGE_PERIDIOD
         bool "peridio daemon"
-        select BR2_PACKAGE_PERIDIO_ERLANG
-        select BR2_PACKAGE_HOST_PERIDIO_ELIXIR
         help
           http://github.com/peridio/buildroot-external-peridio
