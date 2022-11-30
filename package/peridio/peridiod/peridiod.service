@@ -1,8 +1,9 @@
 [Unit]
 Description=Peridio Daemon
-
 [Service]
-Restart=always
+Restart=on-failure
+RestartSec=5s
+
 ExecStart=/usr/sbin/peridiod start
 User=root
 
