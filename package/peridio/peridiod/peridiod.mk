@@ -4,7 +4,7 @@
 #
 ################################################################################
 
-PERIDIOD_VERSION = 1.1.0
+PERIDIOD_VERSION = 2.0.0
 PERIDIOD_SITE = $(call github,peridio,peridiod,v$(PERIDIOD_VERSION))
 PERIDIOD_DEPENDENCIES = host-elixir host-erlang erlang
 PERIDIOD_ERTS_DIR = $(wildcard $(STAGING_DIR)/usr/lib/erlang/erts-*)
