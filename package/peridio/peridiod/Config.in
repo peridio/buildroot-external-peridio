@@ -1,4 +1,7 @@
 config BR2_PACKAGE_PERIDIOD
         bool "peridio daemon"
+        select BR2_PACKAGE_FWUP
+        select BR2_PACKAGE_ERLANG
+        select BR2_PACKAGE_LIBMNL
         help
           http://github.com/peridio/buildroot-external-peridio
